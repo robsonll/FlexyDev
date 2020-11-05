@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.flexydev">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlexyDev">
+        <activity
+            android:name=".HomeActivity"
+            tools:ignore="Instantiatable"></activity>
+        <activity android:name=".NavigationMainActivity" />
+        <activity android:name=".LandingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AddPaymentMethod" />
+        <activity android:name=".EditPaymentMethod" />
+        <activity android:name=".AddBusiness" />
+        <activity android:name=".EditBusiness" />
+        <activity android:name=".AddBusinessOwner" />
+        <activity android:name=".EditBusinessOwner" />
+        <activity android:name=".SelectBusinessOwner" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

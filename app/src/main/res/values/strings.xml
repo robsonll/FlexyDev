@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">FlexyDev</string>
+    <string name="imageView">Image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="signUp">Sign Up</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="signInWithGoogle">Sign in with Google</string>
+    <string name="navigation_drawer_open">Open Navigation Bar</string>
+    <string name="navigation_drawer_close">Close Navigation Bar</string>
+
+    <string name="homeSide">Home</string>
+    <string name="profileSide">Profile</string>
+    <string name="historySide">Order\'s History</string>
+    <string name="shareSide">Share</string>
+    <string name="logoutSide">Logout</string>
+    <string name="othersSide">Others</string>
+    <string name="placeholderText">Test String</string>
+    <string name="addons">Add Ons</string>
+    <string name="proceedToPay">Proceed To Pay</string>
+    <string name="otherItem">Add other item</string>
+    <string name="proceedToSelectAddress">Select Address</string>
+    <string name="selectAddress">Address</string>
+    <string name="selectDrink">Drinks</string>
+    <string name="selectExtras">Extras</string>
+
+    <string name="aptNumber">Apartment Number</string>
+    <string name="city">City</string>
+    <string name="postalCode">Postal Code</string>
+    <string name="province">Province</string>
+    <string name="makePayment">Continue with Paypal</string>
+    <string name="cashOnDelivery">Pay On Delivery</string>
+    <string name="payment">Payment</string>
+    <string name="continueWithPaypal">Continue With Paypal</string>
+    <string name="cod">Pay On Delivery</string>
+    <string name="orderPlaced">Order Placed</string>
+    <string name="call">Call Restaurant</string>
+    <string name="goHome">Go Home</string>
+    <string name="addAddress">Add Address</string>
+    <string name="addressTItle">Address Title</string>
+    <string name="aptNo">Apartment Number</string>
+    <string name="postal">Postal code</string>
+    <string name="address">Addresses</string>
+    <string name="history">History</string>
+    <string name="users">Users</string>
+    <string name="stores">Stores</string>
+    <string name="products">Products</string>
+    <string name="adminMenu">Administrator Options</string>
+    <string name="Test">teste</string>
+    <string name="empr1">empresa 1</string>
+
+
+    <string name="strMenuTitle">Administrator Option</string>
+    <string name="strPaymentMethods">Payment Methods</string>
+    <string name="strBusiness">Business</string>
+    <string name="selectPaymentMethod">Payment Methods</string>
+    <string name="addPaymentMethod">Add new Payment Method</string>
+    <string name="editPaymentMethod">Edit Payment Method</string>
+    <string name="btnSave">Save</string>
+    <string name="pmName">Payment Method Name</string>
+    <string name="pmDescription">Payment Method description</string>
+
+    <string name="selectBusiness">Businesses</string>
+    <string name="addBusiness">Add new Business</string>
+    <string name="editBusiness">Edit Business</string>
+    <string name="businessName">Business Name</string>
+    <string name="businessUrl">Business URL</string>
+    <string name="businessAddress">Business Address</string>
+    <string name="businessPhone">Business Phone</string>
+    <string name="businessEmail">Business Email</string>
+    <string name="btnOwners">Owners</string>
+
+    <string name="selectBusinessOwner">Business Owners</string>
+    <string name="addOwner">Add new Owner</string>
+    <string name="editOwner">Edit Owner</string>
+    <string name="ownerName">Owner Name</string>
+    <string name="ownerEmail">Owner Email</string>
+    <string name="ownerPhone">Owner Phone</string>
+
+    <string-array name="drinks_array">
+        <item>Coke</item>
+        <item>Diet Coke</item>
+        <item>Burgers Fruit Punch</item>
+        <item>Burgers Delight</item>
+        <item>Fanta</item>
+        <item>Apple Juice</item>
+        <item>Burgers ABC Juice</item>
+        <item>Milk Shake</item>
+    </string-array>
+
+    <string-array name="fries_array">
+        <item>Crinkle Cut Fries</item>
+        <item>Sweet Potato Fries</item>
+        <item>Standrad Cut Fries</item>
+        <item>Cheese Fries</item>
+        <item>Potato Wedges</item>
+        <item>Smiley Fries</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

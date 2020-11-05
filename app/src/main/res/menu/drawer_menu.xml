@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/homeSide"/>
+
+    </group>
+
+    <item android:title="@string/strMenuTitle">
+
+        <menu>
+            <item android:id="@+id/nav_payment_options"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/strPaymentMethods"/>
+
+            <item android:id="@+id/nav_business"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/strBusiness"/>
+
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logoutSide"/>
+        </menu>
+
+    </item>
+</menu>
