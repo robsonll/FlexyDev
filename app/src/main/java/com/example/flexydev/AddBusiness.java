@@ -92,6 +92,10 @@ public class AddBusiness extends AppCompatActivity {
                 if (checked)
                     businessStatus = false;
                     break;
+            default:
+                businessStatus = true;
+                break;
+
         }
     }
 
