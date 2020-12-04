@@ -69,7 +69,7 @@ public class AddBusinessOwner extends AppCompatActivity {
         final KProgressHUD hud = KProgressHUD.create(this)
                 .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
                 .setLabel("Please wait")
-                .setDetailsLabel("Inserting Payment Method")
+                .setDetailsLabel("Inserting Owner Name")
                 .setCancellable(true)
                 .setAnimationSpeed(2)
                 .setDimAmount(0.5f)
