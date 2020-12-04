@@ -59,10 +59,13 @@ public class EditBusiness extends AppCompatActivity {
         editTextBusinessPhoneNumber.setText(business.getPhoneNumber());
         editTextBusinessEmail.setText(business.getEmail());
 
-        if(business.getActive())
-            businessStatusTrue.setChecked(true);
-        else
+        if((business.getActive() == null) || (business.getActive() == false)) {
             businessStatusFalse.setChecked(true);
+            businessStatus = false;
+        }else {
+            businessStatusTrue.setChecked(true);
+            businessStatus = true;
+        }
 
         db = FirebaseFirestore.getInstance();
 
